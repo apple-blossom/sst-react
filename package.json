@@ -7,7 +7,7 @@
   "dev": "vite",
   "start": "vite preview",
   "typecheck": "tsc",
-  "postinstall": "chmod +x node_modules/.bin/vite"
+  "postinstall": "chmod -R +x node_modules/.bin || true"
 },
   "dependencies": {
     "@react-router/node": "^7.5.3",
