@@ -3,17 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
     "build": "react-router build",
-=======
-    "build": "react-router build", 
->>>>>>> dc4a1a573f727979ccbb56f455463dcc00723f9f
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@aws-sdk/client-s3": "^3.848.0",
     "@aws-sdk/s3-request-presigner": "^3.848.0",
     "@react-router/dev": "^7.5.3",
@@ -27,21 +22,6 @@
     "sst": "3.17.8"
   },
   "devDependencies": {
-=======
-    "@react-router/node": "7.6.2", 
-    "@react-router/serve": "7.6.2",
-    "@react-router/express": "7.6.2",
-    "isbot": "^5.1.27",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router": "7.6.2",
-    "sst": "3.17.8"
-  },
-  "devDependencies": {
-    "@react-router/dev": "7.6.2", 
-    "@react-router/cli": "7.6.2",  
-    "@tailwindcss/vite": "^4.1.4",
->>>>>>> dc4a1a573f727979ccbb56f455463dcc00723f9f
     "@types/node": "^20",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
